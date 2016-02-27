@@ -1,0 +1,12 @@
+<h1>Welcome</h1>
+<p>This is the landing page for our blog application made using Ruby on Rails.</p>
+<p>This page is just a placeholder. Later on, we'll replace with the posts in our blog.
+<p>The current time is <%= @time %></p>
+
+<p>Our dessert recipes aer shared with love by the world
+top <%= @chefs.size %> chefs in <%= @time %></p>
+<ul>
+<% @chefs.each do |chef| %>
+  <li><%= chef %></li>
+<% end %>
+</us>
